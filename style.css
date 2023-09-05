@@ -24,6 +24,45 @@ h1 {
     line-height: 6.5rem;
 }
 
+.title {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Noto Serif';
+}
+
+.white-button {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 30px 60px;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.transparent-button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    width: fit-content;
+    padding: 30px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 1vh;
+}
+
 /* Carousel */
 #top-slider {
     height: 85vh;
@@ -130,30 +169,21 @@ h1 {
     margin: 3% 0 7% 12% !important;
 }
 
-.slider-button {
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 3px;
-    padding: 30px 60px;
-    margin-top: 1%;
-}
-
 @-webkit-keyframes check {
     50% {
-        outline-color: #fff;
+        outline-color: white;
     }
     100% {
-        outline-color: #fff;
+        outline-color: white;
     }
 }
 
 @keyframes check {
     50% {
-        outline-color: #fff;
+        outline-color: white;
     }
     100% {
-        outline-color: #fff;
+        outline-color: white;
     }
 }
 
@@ -163,18 +193,10 @@ h1 {
 
 #home-subtitle {
     color: #E2C0B6;
-    font-style: italic;
-    font-weight: 400;
-    font-family: 'Noto Serif';
     margin-bottom: 0.75rem;
 }
 
 #home-title {
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 900 !important;
-    font-size: 3rem;
-    letter-spacing: 5px;
     margin-bottom: 5%;
 }
 
@@ -228,4 +250,48 @@ h1 {
     margin-left: 1vw;
     opacity: 0.3;
     line-height: 2.5rem;
+}
+
+#notre-dame {
+    background-image: url(assets/landing-slider1-background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 120%;
+    height: 78vh;
+    margin-bottom: 20vh;
+    display: flex;
+}
+
+#notre-dame > * {
+    width: 50%;
+}
+
+#notre-dame-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    height: 78vh;
+    color: white;
+}
+
+#notre-dame-subtitle {
+    color: #FAE4D9;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#notre-dame-title {
+    margin: 1vh 0 2vh;
+}
+
+#notre-dame-left p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+#notre-dame-right {
+    height: 78vh;
 }
