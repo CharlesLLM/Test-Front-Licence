@@ -192,7 +192,7 @@ h1 {
 }
 
 #home-subtitle {
-    color: #E2C0B6;
+    color: #CC968A;
     margin-bottom: 0.75rem;
 }
 
@@ -258,7 +258,7 @@ h1 {
     background-position: bottom center;
     background-size: 120%;
     height: 75vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
     display: flex;
 }
 
@@ -309,4 +309,71 @@ h1 {
 
 #notre-dame-img3 {
     margin: 37% 0 0 24%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5vw 20vh;
+}
+
+#projects-subtitle {
+    color: #CC968A;
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+#projects-title {
+    margin-bottom: 3vh;
+}
+
+.project-line {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.project {
+    width: 29%;
+    margin-bottom: 2.5vh;
+}
+
+.project img {
+    width: 100%;
+    box-shadow: 10px 10px 30px -30px #CCC;
+}
+
+.project h5 {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    margin-top: 2.5vh;
+}
+
+#footer {
+    height: 86vh;
+    background-image: url('assets/landing-bottom-background-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: 115%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#footer-subtitle {
+    color: #FFF1E4;
+    font-size: 1.5rem;
+}
+
+#footer p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    transform: scale(1.2);
+    max-width: 37%;
+    text-align: center;
+    margin: 1vh 0 2vh;
 }
