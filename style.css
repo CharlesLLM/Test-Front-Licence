@@ -257,21 +257,18 @@ h1 {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 120%;
-    height: 78vh;
+    height: 75vh;
     margin-bottom: 20vh;
     display: flex;
 }
 
-#notre-dame > * {
-    width: 50%;
-}
-
 #notre-dame-left {
+    width: 48%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10vw;
-    height: 78vh;
+    padding: 10vh 0 0 10vw;
+    height: 75vh;
     color: white;
 }
 
@@ -283,15 +280,33 @@ h1 {
 
 #notre-dame-title {
     margin: 1vh 0 2vh;
+    font-size: 3.1rem;
 }
 
 #notre-dame-left p {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 19px;
     line-height: 2rem;
     margin: 0;
 }
 
 #notre-dame-right {
-    height: 78vh;
+    width: 52%;
+    height: 72vh;
+    padding-top: 5%;
+    max-width: 50vw;
+}
+
+#notre-dame-img1 {
+    position: absolute;
+    margin-left: 5%;
+}
+
+#notre-dame-img2 {
+    position: absolute;
+    margin-top: 6%;
+}
+
+#notre-dame-img3 {
+    margin: 37% 0 0 24%;
 }
