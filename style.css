@@ -81,8 +81,8 @@ h1 {
   outline-offset: -6px;
   cursor: pointer;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   backface-visibility: hidden;
 }
 .slider__nav:checked {

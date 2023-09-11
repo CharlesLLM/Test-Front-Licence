@@ -67,17 +67,9 @@ h1 {
   position: relative;
   overflow: hidden;
   display: flex;
-  -webkit-flex-flow: row nowrap;
-    -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-      align-items: flex-end;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-    -ms-flex-pack: center;
-      justify-content: center;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: center;
       
   &__nav {
     width: 10px;
@@ -88,11 +80,8 @@ h1 {
     outline: 5px solid #aaa;
     outline-offset: -6px;
     cursor: pointer;
-    -webkit-appearance: none;
-      -moz-appearance: none;
-        appearance: none;
-    -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
+    appearance: none;
+    backface-visibility: hidden;
   }
   &__nav:checked {
     -webkit-animation: check 0.4s linear forwards;
