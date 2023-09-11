@@ -71,7 +71,6 @@ h1 {
   align-items: flex-end;
   justify-content: center;
 }
-
 .slider__nav {
   width: 10px;
   height: 10px;
@@ -86,27 +85,21 @@ h1 {
   appearance: none;
   backface-visibility: hidden;
 }
-
 .slider__nav:checked {
   animation: check 0.4s linear forwards;
 }
-
 .slider__nav:checked:nth-of-type(1) ~ .slider__content {
   left: -10vw;
 }
-
 .slider__nav:checked:nth-of-type(2) ~ .slider__content {
   left: -130vw;
 }
-
 .slider__nav:checked:nth-of-type(3) ~ .slider__content {
   left: -250vw;
 }
-
 .slider__nav:checked:nth-of-type(4) ~ .slider__content {
   left: -370vw;
 }
-
 .slider__content {
   position: absolute;
   top: 0;
@@ -115,30 +108,25 @@ h1 {
   transition: left 0.4s;
   display: flex;
 }
-
 .slider__item {
   text-align: center;
   display: flex;
 }
-
 .slider img {
   width: 120vw;
   height: 85vh;
 }
-
 .slider__text {
   width: 120vw;
   position: absolute;
   color: white;
 }
-
 .slider__paragraph {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .slider__paragraph p {
   text-align: center;
   font-weight: 400;
@@ -147,7 +135,6 @@ h1 {
   line-height: 2.25rem;
   transform: scale(1.2);
 }
-
 .slider__subtitle {
   color: #D8C7BB;
   font-style: italic;
@@ -156,7 +143,6 @@ h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-
 .slider__exercise {
   text-align: start;
   margin: 3% 0 7% 12%;
@@ -172,59 +158,48 @@ h1 {
 .home {
   margin: 15vh 5% 20vh;
 }
-
 .home__subtitle {
   color: #CC968A;
   margin-bottom: 0.75rem;
 }
-
 .home__title {
   margin-bottom: 5%;
 }
-
 .home__top, .home__bottom {
   display: flex;
   justify-content: space-between;
 }
-
 .home__top > :first-child img {
   box-shadow: 1px 1px 100px -30px #D8C7BB;
 }
-
 .home__bottom > :last-child {
   margin-top: 8vh;
 }
-
 .home__image {
   width: 45%;
   margin-bottom: 15vh;
 }
-
 .home__image img {
   position: relative;
   width: 100%;
   margin-bottom: 1%;
   z-index: 20;
 }
-
 .home__text {
   position: absolute;
 }
-
 .home__image-subtitle {
   text-transform: uppercase;
   margin: 2vh 0 0;
   letter-spacing: 3px;
   font-size: 1rem;
 }
-
 .home__number {
   position: absolute;
   font-family: "Noto Serif";
   font-style: italic;
   color: #E2C0B6;
 }
-
 .home__number h4 {
   font-size: 10rem;
   font-weight: 100;
@@ -233,7 +208,6 @@ h1 {
   opacity: 0.3;
   line-height: 2.5rem;
 }
-
 @media (max-width: 768px) {
   .home__top, .home__bottom {
     flex-direction: column;
@@ -243,6 +217,7 @@ h1 {
     width: 100%;
   }
 }
+
 .church {
   background-image: url(assets/landing-slider1-background.jpg);
   background-repeat: no-repeat;
@@ -252,7 +227,6 @@ h1 {
   margin-bottom: 15vh;
   display: flex;
 }
-
 .church__left {
   width: 48%;
   display: flex;
@@ -262,46 +236,38 @@ h1 {
   height: 75vh;
   color: white;
 }
-
 .church__subtitle {
   color: #FAE4D9;
   margin: 0;
   font-size: 1.2rem;
 }
-
 .church__title {
   margin: 1vh 0 2vh;
   font-size: 3.1rem;
 }
-
 .church__left p {
   font-weight: 300;
   font-size: 19px;
   line-height: 2rem;
   margin: 0;
 }
-
 .church__right {
   width: 52%;
   height: 72vh;
   padding-top: 5%;
   max-width: 50vw;
 }
-
 .church__img1 {
   position: absolute;
   margin-left: 5%;
 }
-
 .church__img2 {
   position: absolute;
   margin-top: 6%;
 }
-
 .church__img3 {
   margin: 37% 0 0 24%;
 }
-
 @media (max-width: 768px) {
   .church {
     background-position: bottom center;
@@ -313,59 +279,56 @@ h1 {
     width: 30%;
   }
 }
+
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 5vw 20vh;
 }
-
 .projects__subtitle {
   color: #CC968A;
   margin: 0;
   margin-bottom: 1vh;
 }
-
 .projects__title {
   margin-bottom: 3vh;
 }
-
-.project__line {
+.projects .project {
+  width: 29%;
+  margin-bottom: 2.5vh;
+}
+.projects .project__line {
   display: flex;
   justify-content: space-around;
   margin-top: 5vh;
 }
-
-.project {
-  width: 29%;
-  margin-bottom: 2.5vh;
-}
-
-.project img {
+.projects .project img {
   width: 100%;
   box-shadow: 10px 10px 30px -30px #CCC;
 }
-
-.project h5 {
+.projects .project h5 {
   font-size: 1.25rem;
   letter-spacing: 2px;
   margin-top: 2.5vh;
 }
-
 @media (max-width: 768px) {
-  .projects {
-    padding-bottom: 5vh;
-  }
-  .project__line {
+  .projects .project__line {
     flex-direction: column;
     align-items: center;
   }
-  .project {
+  .projects .project {
     width: 90%;
     text-align: center;
     margin-bottom: 5vh;
   }
 }
+@media (max-width: 768px) {
+  .projects {
+    padding-bottom: 5vh;
+  }
+}
+
 .footer {
   height: 86vh;
   background-image: url("assets/landing-bottom-background-1.jpg");
@@ -378,12 +341,10 @@ h1 {
   align-items: center;
   color: white;
 }
-
 .footer__subtitle {
   color: #FFF1E4;
   font-size: 1.5rem;
 }
-
 .footer p {
   font-weight: 400;
   font-size: 1.25rem;
@@ -393,7 +354,6 @@ h1 {
   text-align: center;
   margin: 1vh 0 2vh;
 }
-
 @media (max-width: 768px) {
   .footer {
     background-size: 210%;
