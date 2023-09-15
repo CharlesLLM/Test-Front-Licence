@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif");
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Montserrat";
-  padding: 0;
 }
 
 h1 {
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 5rem;
   line-height: 6.5rem;
 }
