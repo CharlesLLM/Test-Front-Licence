@@ -189,9 +189,14 @@ h1 {
   width: 45%;
   margin-bottom: 15vh;
 }
+.home__image p {
+  transition: 0.2s all;
+}
+.home__image :last-child {
+  transition: 0.4s all;
+}
 .home__image:hover p {
-  transition: all 0.2s;
-  text-indent: 20px;
+  text-indent: 18px;
 }
 .home__image:hover p:before {
   width: 14px;
@@ -199,7 +204,7 @@ h1 {
 }
 .home__image:hover :last-child {
   transition: 0.4s;
-  text-indent: 40px;
+  text-indent: 36px;
 }
 .home__image img {
   position: relative;

@@ -224,11 +224,17 @@ h1 {
   &__image {
     width: 45%;
     margin-bottom: 15vh;
+    & p {
+      transition: 0.2s all;
+    }
+
+    & :last-child {
+      transition: 0.4s all;
+    }
 
     &:hover {
       & p {
-        transition: all 0.2s;
-        text-indent: 20px;
+        text-indent: 18px;
 
         &:before {
           width: 14px;
@@ -238,7 +244,7 @@ h1 {
 
       & :last-child {
         transition: 0.4s;
-        text-indent: 40px;
+        text-indent: 36px;
       }
     }
 
